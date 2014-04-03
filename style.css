@@ -1,0 +1,376 @@
+html {
+	width: 100%; 
+	height: 100%;
+	background: white;
+}
+
+.bodydiv {
+	font-family: "Segoe UI", arial, sans-serif; /* Sets font type. If Segoe is not available then user alt font */
+    width: 85%; /* Set width of div */
+    height: auto;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid black;
+    background: white;
+}
+
+#feedli {
+	list-style-type: none; /* Remove bullet points */
+}
+
+#tablecen {
+	margin:0 auto;
+}
+
+p {
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+}
+
+h1 {
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	font-family: "Segoe UI", arial, sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	font-family: "Segoe UI", arial, sans-serif;
+	font-weight: bold;
+}
+
+form {
+	margin-bottom: 1px
+}
+
+#purchase {
+	display: block;
+	margin-left: auto; /* Margin right / left set to auto will centre an element */
+	margin-right: auto;
+	padding: 10px;
+}
+
+#feedcell3 {
+	text-align: left;
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+}
+
+#feedform {
+	text-align: center;
+}
+
+#Feedleft {
+	width: 40%;
+	text-align: center;
+}
+
+#Feedright {
+	width: 45%;
+	text-align:center;
+}
+
+#Nav {
+	text-align: center;
+}
+
+#Nav ul {
+	width: 80%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	border-radius: 25px; /* curves off the corners of the block */
+	background-color: #f1d44f;
+	text-align: center;
+}
+
+#Nav ul li {
+	display: inline-block;
+}
+
+#Nav a {
+	padding: 15px;
+	color: black;
+	font-weight: bold;
+	font-family: "Segoe UI", arial, sans-serif;
+}
+
+#Banner {
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 25px;
+	background-color: #f1d44f; /* set font based on Hex value */
+	text-align: center; /* align text to centre */
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: 45pt;
+	font-weight: bold;
+}
+
+.Pics {
+	margin: 5px auto;
+}
+
+.Pics ul {
+    width: auto;
+    padding: 10px 10px 0px 10px;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+
+.Pics ul li {
+	background: white;
+	display: inline-block;
+	border: 1px solid black;
+	width: 250px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+#tablepics {
+	width: 113px;
+	height: 160px;
+	display: block;
+	margin: 5px auto auto auto;
+}
+
+#tablelinks {
+	color: #ff660c;
+}
+
+#basketpics {
+	width: 70px;
+	height: 98px;
+	display: block;
+	margin: 5px auto auto auto;
+}
+
+#cartbutton {
+	margin: 5px;
+}
+
+.Pics a {
+	text-align: center;
+	color: blue;
+	font-size: medium;
+	font-weight: bold;
+	font-family: "Segoe UI", arial, sans-serif;
+}
+
+.Pics p {
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0px;
+	font-family: "Segoe UI", arial, sans-serif;
+}
+
+#plathead {
+	text-align: center;
+	padding: 5px;
+	margin: 10px auto;
+	border-radius: 25px;
+	background-color: #ff660c;
+	width: 28%;
+}
+
+#pricehead {
+	text-align: center;
+	padding: 5px;
+	margin: 30px auto 10px auto;
+	border-radius: 25px;
+	background-color: #ff660c;
+	width: 26%;
+}
+
+#Reghead {
+	font-family: "Segoe UI", arial, sans-serif;
+    width: 85%;
+    height: auto;
+    margin: 20px auto 10px auto;
+}
+
+#Acchead {
+	font-family: "Segoe UI", arial, sans-serif;
+    width: 85%;
+    height: auto;
+    margin: 20px auto auto auto;
+}
+
+#bhead {
+	font-family: "Segoe UI", arial, sans-serif;
+    width: 85%;
+    height: auto;
+    margin: 20px auto auto auto;
+    padding: 0px;
+}
+
+
+#Regform {
+	text-align: center;
+}
+
+.Regtable {
+	width: 85%;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+#Regcell1 {
+	padding-right: 30px;
+	text-align: right;
+}
+
+#Regcell2 {
+	text-align: left;
+}
+
+#Regtablein {
+	border: 1px solid black;
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+
+.Reghome {
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+
+#Thankreg {
+
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+
+#Logform {
+	text-align: center;
+}
+
+.Logtable {
+	width: 85%;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#Logtablein {
+	border: 1px solid black;
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#Logcell1 {
+	padding-right: 30px;
+	text-align: right;
+}
+
+#Logcell2 {
+	text-align: left;
+}
+
+.Btable {
+	width: 85%;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+#Bcell1 {
+	padding-right: 60px;
+	text-align: left;
+}
+
+#Bcell2 {
+	padding-right: 60px;
+	padding-left: :60px;
+	text-align: center;
+}
+
+#Bcell3 {
+	text-align: right;
+}
+
+.formplatdiv {
+	padding: 5px;
+	margin: 20px auto 5px auto;
+	text-align: center;
+}
+
+#formplat select {
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+}
+
+#footer {
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: small;
+	text-align: center;
+}
+
+.formorderdiv {
+	padding: 5px;
+	margin: 5px auto 5px auto;
+	text-align: center;
+}
+
+#formorder select {
+	font-family: "Segoe UI", arial, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+}
+
+#moretitle {
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	color: #ff660c;
+}
+
+#moretext {
+	text-align: center;
+}
+
+#moredesc {
+	text-align: center;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.video {
+	width: 85%;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#video {
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
